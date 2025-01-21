@@ -4,11 +4,13 @@ after create project run below commond
 # install virtual environment
     python3 -m venv vir_env
 
+# Active environment path 
+    source vir_env/bin/activate
+    
 # install flask
     python -m pip install flask
 
-# Active environment path 
-    source vir_env/bin/activate
+
 
 # run flask
     flask run
