@@ -9,3 +9,6 @@ def welcome():
 @app.route("/home")
 def home():
     return "Home Page"
+
+import api.users.user
+import api.products.product as product
