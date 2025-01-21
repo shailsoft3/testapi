@@ -10,5 +10,5 @@ def welcome():
 def home():
     return "Home Page"
 
-import api.users.user
-import api.products.product as product
+from api.users import user
+from api.products import product
